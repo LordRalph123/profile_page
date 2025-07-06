@@ -26,7 +26,7 @@ class AboutCard extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               Text(
-                'I am a passionate Flutter developer with 2 years of experience building cross-platform mobile applications. I love creating beautiful UIs and solving complex problems.',
+                'I am a passionate Flutter developer with 3 years of experience building cross-platform mobile applications. I love creating beautiful UIs and solving complex problems.',
                 style: TextStyle(
                   fontSize: 14,
                   color: Colors.grey[700],

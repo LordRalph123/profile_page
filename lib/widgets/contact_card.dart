@@ -10,9 +10,7 @@ class ContactCard extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Card(
         elevation: 3,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(15),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
         child: Padding(
           padding: const EdgeInsets.all(15),
           child: Column(
@@ -20,31 +18,19 @@ class ContactCard extends StatelessWidget {
             children: const [
               Text(
                 'Contact Information',
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 15),
               ContactRow(
                 icon: Icons.email,
-                text: 'john.doe@example.com',
+                text: 'seyinderaphaeljoseph@gmail.com',
               ),
               SizedBox(height: 10),
-              ContactRow(
-                icon: Icons.phone,
-                text: '+1 (555) 123-4567',
-              ),
+              ContactRow(icon: Icons.phone, text: '+2348067836485'),
               SizedBox(height: 10),
-              ContactRow(
-                icon: Icons.location_on,
-                text: 'San Francisco, CA',
-              ),
+              ContactRow(icon: Icons.location_on, text: 'Lagos, Nigeria'),
               SizedBox(height: 10),
-              ContactRow(
-                icon: Icons.link,
-                text: 'github.com/johndoe',
-              ),
+              ContactRow(icon: Icons.link, text: 'github.com/lordralph123'),
             ],
           ),
         ),
